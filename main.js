@@ -67,7 +67,7 @@ const button = document.querySelector("button")
 button.addEventListener("click", aumentarNumero)
 
 console.log(numero)
-*/
+
 
 let numero = 10
 
@@ -78,4 +78,23 @@ button.addEventListener("click", function (){
 })
 
 console.log(numero)
+*/
+/*
+let numero = 10
 
+const button = document.querySelector("button")
+button.addEventListener("click", () =>{
+    numero = numero + 1
+    console.log(numero)
+})
+
+console.log(numero)
+*/
+/* Exemplo 8 
+let somar = (valor1, valor2) =>{
+    return valor1 + valor2
+}
+
+
+console.log(somar(10,20))
+*/
