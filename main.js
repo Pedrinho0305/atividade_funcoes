@@ -150,7 +150,7 @@ function somar(a, b){
  console.log(`X3 = ${soma3}`)
 
 */ 
-
+/* Exemplo 2
 let media = (nota1, nota2) => ((nota1 * 3.5) + (nota2 * 7.5)) / 11
 
 let media1 = media(5, 7.1)
@@ -160,4 +160,20 @@ let media3 = media(10, 10)
 console.log(`Média 1 = ${media1.toFixed(5)}`)
 console.log(`Média 2 = ${media2.toFixed(5)}`)
 console.log(`Média 3 = ${media3.toFixed(5)}`)
+*/
+
+
+function salario (salarioFixo, totalVendas){
+    let porcentagem = 0.15
+    let bonus = totalVendas * porcentagem
+    return salarioFixo + bonus
+}
+
+let funcionario1 = salario(500, 1230.3)
+let funcionario2 = salario(700, 0)
+let funcionario3 = salario(1700, 1230.5)
+
+console.log(`Total1 = R$ ${funcionario1.toFixed(2)}`)
+console.log(`Total2 = R$ ${funcionario2.toFixed(2)}`)
+console.log(`Total3 = R$ ${funcionario3.toFixed(2)}`)
 
